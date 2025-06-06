@@ -27,6 +27,10 @@ Um diesen Adapter zu verwenden, müssen Sie sich bei "Hagelschutz - Einfach Auto
     ### **WORK IN PROGRESS**
 -->
 
+### **WORK IN PROGRESS**
+
+- (UncleSamSwiss) Fix build
+
 ### 0.1.0 (2025-06-06)
 
 - (UncleSamSwiss) initial release
