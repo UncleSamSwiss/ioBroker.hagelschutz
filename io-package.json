@@ -23,7 +23,7 @@
             "ru": "Hagelschutz - einfach automatisch",
             "pt": "Hagelschutz - einfach automatisch",
             "nl": "Hagelschutz - einfach automatisch",
-            "fr": "Hagelschutz - einfach automatisch",
+            "fr": "Protection grêle - tout simplement automatique",
             "it": "Hagelschutz - einfach automatisch",
             "es": "Hagelschutz - einfach automatisch",
             "pl": "Hagelschutz - einfach automatisch",
@@ -36,15 +36,22 @@
             "ru": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
             "pt": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
             "nl": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
-            "fr": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
+            "fr": "Adaptateur pour protectiongrele.ch des établissements cantonaux d'assurance AECA",
             "it": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
             "es": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
             "pl": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
             "uk": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
             "zh-cn": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen"
         },
-        "authors": ["UncleSamSwiss <samuel.weibel@gmail.com>"],
-        "keywords": ["hagelschutz", "schweiz", "vkg", "gebäudeversicherung"],
+        "authors": [
+            "UncleSamSwiss <samuel.weibel@gmail.com>"
+        ],
+        "keywords": [
+            "hagelschutz",
+            "schweiz",
+            "vkg",
+            "gebäudeversicherung"
+        ],
         "licenseInformation": {
             "type": "free",
             "license": "MIT"
@@ -99,6 +106,24 @@
                 "read": true,
                 "write": false,
                 "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "currentState",
+            "type": "state",
+            "common": {
+                "role": "value",
+                "name": "Current state of hail warning",
+                "type": "number",
+                "read": true,
+                "write": false,
+                "def": 0,
+                "states": {
+                    "0": "No hail warning",
+                    "1": "Hail warning active",
+                    "2": "Hail state triggered by test-alarm"
+                }
             },
             "native": {}
         }

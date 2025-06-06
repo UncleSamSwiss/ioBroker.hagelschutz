@@ -1,5 +1,6 @@
 {
-    "hagelschutz adapter settings": "Настройки адаптера для hagelschutz",
-    "deviceID": "MAC Address (deviceID)",
-    "hwtypeld": "Interface (hwtypeld)"
+    "MAC Address (deviceID)": "MAC -адрес (DeviceID)",
+    "Interface (hwtypeld)": "Интерфейс (Hwtypeld)",
+    "Help": "Чтобы использовать этот адаптер, вам необходимо зарегистрироваться в Hagelschutz - Einfach Automatisch. После регистрации вы получите DeviceID и тип интерфейса по электронной почте.",
+    "Registration": "К регистрации"
 }

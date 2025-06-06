@@ -1,5 +1,6 @@
 {
-    "hagelschutz adapter settings": "Impostazioni dell'adattatore per hagelschutz",
-    "deviceID": "MAC Address (deviceID)",
-    "hwtypeld": "Interface (hwtypeld)"
+    "MAC Address (deviceID)": "Indirizzo MAC (DeviceID)",
+    "Interface (hwtypeld)": "Interfaccia (HWTypeld)",
+    "Help": "Per utilizzare questo adattatore, è necessario registrarsi presso Hagelschutz - Einfach Automatisch. Dopo la registrazione, riceverai un dispositivo e un tipo di interfaccia HWTypeld via e -mail.",
+    "Registration": "Alla registrazione"
 }
