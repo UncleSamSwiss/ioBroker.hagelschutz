@@ -1,0 +1,16 @@
+{
+    "i18n": true,
+    "type": "panel",
+    "items": {
+        "deviceID": {
+            "type": "text",
+            "label": "MAC Address (deviceID)",
+            "newLine": true
+        },
+        "hwtypeld": {
+            "type": "number",
+            "label": "Interface (hwtypeld)",
+            "newLine": true
+        }
+    }
+}
