@@ -20,3 +20,8 @@ updates:
     open-pull-requests-limit: 5
     assignees:
       - UncleSamSwiss
+
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: weekly
