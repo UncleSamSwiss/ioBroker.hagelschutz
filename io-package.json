@@ -1,9 +1,9 @@
 {
     "common": {
         "name": "hagelschutz",
-        "version": "0.0.1",
+        "version": "0.1.0",
         "news": {
-            "0.0.1": {
+            "0.1.0": {
                 "en": "initial release",
                 "de": "Erstveröffentlichung",
                 "ru": "Начальная версия",
@@ -43,15 +43,8 @@
             "uk": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
             "zh-cn": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen"
         },
-        "authors": [
-            "UncleSamSwiss <samuel.weibel@gmail.com>"
-        ],
-        "keywords": [
-            "hagelschutz",
-            "schweiz",
-            "vkg",
-            "gebäudeversicherung"
-        ],
+        "authors": ["UncleSamSwiss <samuel.weibel@gmail.com>"],
+        "keywords": ["hagelschutz", "schweiz", "vkg", "gebäudeversicherung"],
         "licenseInformation": {
             "type": "free",
             "license": "MIT"
